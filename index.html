@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="Appointment book successful" id="form">
+        <div>
+            <h1>SHARAN TURBAN POINT</h1>
+            <h2>Book your date</h2>
+            <h3>Name</h3>
+            <input type="text" id="name" placeholder="Enter Name"><br>
+            <h3>Email</h3>
+            <input type="email" id="name" placeholder="Enter email"><br>
+            <h3>Contact number</h3>
+            <!-- <input type="tel" id="name" pattern="[0-9]{10}" required><br> -->
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
+            
+            <h3>Choose your Turban style</h3>
+            <select name="Turban option" id="Turban">
+                <option value="">--Please choose an option--</option>
+                <option value="Patiyala">Patiyala shai</option>
+                <option value="Morni">Morni-stule</option>
+                <option value="Free-style">Free-style</option>
+            </select>
+            <h3>Select Date and Time</h3>
+            <input type="datetime-local", id="name" name="date">
+            <!-- <input type="button", id="Submit", value="Submit form", name="Submit"> -->
+            <input type="submit" value="Submit" onclick="clearForm()">
+        
+        </div>
+        <hr>
+        <div>
+            <video src="vid/1111 (1).mp4" width="250" controls autoplay loop></video>
+            <video src="vid/1111.mp4", width="250", controls, autoplay loop></video>
+        </div>
+        <div>
+            <h2>Do visit my youtube channel</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fBu5HhAHq9I?si=ac4CEhSMvn25e1pd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </form>
+    <script>
+        function clearForm(){
+            document.getElementById("form").reset();
+        }
+        </script>
+    
+</body>
+   
+</body>
+</html>
